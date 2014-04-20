@@ -2,7 +2,7 @@ WWDC 2014 Scholarship App
 =========================
 
 <p align="center">
-	<img src="https://raw.github.com/Dromaguirre/WWDC 2014 Scholarship App/images/1.png" alt="WWDC 2014 Scholarship App" title="WWDC 2014 Scholarship App" width="320px" />
+	<img src="https://raw.githubusercontent.com/Dromaguirre/WWDC-2014-Scholarship-App/images/1.png" alt="WWDC 2014 Scholarship App" title="WWDC 2014 Scholarship App" width="320px" />
 </p>
 
 My WWDC 2014 student scholarship app.
