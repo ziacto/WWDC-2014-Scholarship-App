@@ -7,7 +7,9 @@ WWDC 2014 Scholarship App
 	<img src="https://raw.githubusercontent.com/Dromaguirre/WWDC-2014-Scholarship-App/images/1.png" alt="WWDC 2014 Scholarship App" title="WWDC 2014 Scholarship App" width="320px" />
 </p>
 
-Supports both iPhone and iPad.
+
+
+Supports both iPhone and iPad, in both portrait and landscape modes.
 
 ## License
 
