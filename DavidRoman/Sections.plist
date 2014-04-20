@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>About me</string>
+		<key>audioFilename</key>
+		<string>AboutMe</string>
+		<key>audioExtension</key>
+		<string>mp3</string>
+		<key>contentViews</key>
+		<array>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>Hi! I&apos;m David Román. I&apos;m a 16-year-old Spaniard student and I love coding. I started learning how to code at 12 all through tutorials and programming books, and now I can certainly say it is my passion.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>Besides developing software, I have other interests. For example, I love listening to music. Recently I discovered an artist called Birdy, whose music is awesome.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRMusicAlbumContentView</string>
+				<key>imageName</key>
+				<string>fire_within</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/us/album/fire-within-deluxe-version/id673277385</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>Also, I love reading, watching TV shows and movies and walking my new dog, Lola.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRImageContentView</string>
+				<key>imageName</key>
+				<string>lola_and_me</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>Since being in the WWDC 2013 in San Francisco learning tons of things and meeting lots of interesting and inspirational people changed my entire life, I&apos;ve decided to prepare this app for this year&apos;s scholarship, hoping it can change this year too.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRImageContentView</string>
+				<key>imageName</key>
+				<string>wwdc_group_photo</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Projects</string>
+		<key>audioFilename</key>
+		<string>Projects</string>
+		<key>audioExtension</key>
+		<string>mp3</string>
+		<key>contentViews</key>
+		<array>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>I&apos;ve developed multiple projects. At 12, I made some little apps for the PSP platform written in Lua. They were really bad coded, but that way I could learn coding fundamentals.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>Then, at 14, I learnt how to develop apps for iOS and made two iOS apps: iWant and DStudy.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRAppContentView</string>
+				<key>iconName</key>
+				<string>iwant</string>
+				<key>name</key>
+				<string>iWant</string>
+				<key>description</key>
+				<string>iWant was the very first app I developed. It&apos;s a free app that allows you to keep a list of gifts you want for your birthday, Christmas or any other date. As most apps, iWant came from a need I had (remind interesting things I see), so when I finally finished coding it I felt really proud about what I had done.</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/us/app/iwant/id542515849?mt=8</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRAppContentView</string>
+				<key>iconName</key>
+				<string>dstudy</string>
+				<key>name</key>
+				<string>DStudy</string>
+				<key>description</key>
+				<string>DStudy was the second app I developed. It&apos;s a really simple but useful app that allows students to easily study drawings divided in multiple parts, such as a cell, or a human skeleton. Both iWant and DStudy were developed in the same summer I learnt iOS development, so I can say it was a really productive summer.</string>
+				<key>url</key>
+				<string>https://itunes.apple.com/us/app/dstudy/id551046169?mt=8</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>Later, I entered a startup called Tudiet, determined to be the best solution for easy communication between patients and nutritionists. Unfortunately, we failed, but that failure didn&apos;t bring me down, because I had learnt a lot about working in a team, and I had enjoyed so much that experience.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>Then I discovered GitHub, one of my favorite services. At first, I didn&apos;t use it really much because I didn&apos;t know how to, but then I learnt how to use it and I started creating some repositories. Some of them have even become popular, fact I&apos;m really proud of. These are my two top public repositories right now:</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRGitHubRepositoryContentView</string>
+				<key>name</key>
+				<string>DRDynamicSlideShow</string>
+				<key>stars</key>
+				<integer>401</integer>
+				<key>description</key>
+				<string>This iOS control is based on a paginated UIScrollView and allows you to create a really cool app intro slide show as the one you can see in IFTTT.</string>
+				<key>url</key>
+				<string>https://github.com/Dromaguirre/DRDynamicSlideShow</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRGitHubRepositoryContentView</string>
+				<key>name</key>
+				<string>PDGestureTableView</string>
+				<key>stars</key>
+				<integer>341</integer>
+				<key>description</key>
+				<string>This one is another iOS control, based on a UITableView, and it allows you to create a gesture-driven UITableView like the one you can see in Mailbox. I created this control for an app I&apos;m working on called Proday.</string>
+				<key>url</key>
+				<string>https://github.com/Dromaguirre/PDGestureTableView</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>Proday is the app I&apos;m currently working on with a Spaniard designer called Manu Gamero (who has been working at Square for 8 months, in NYC). With this app we&apos;ll try to implement a new concept of productivity based on those little tasks with no specific date you never have time to do. We&apos;ve been working for 4 months on this app and hopefully we&apos;ll release the first version on May.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRImageContentView</string>
+				<key>imageName</key>
+				<string>proday.png</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>While developing Proday, I got a Pebble and made a really simple watchapp just for fun to quickly access any GTA V cheat.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRAppContentView</string>
+				<key>iconName</key>
+				<string>gta_cheats</string>
+				<key>name</key>
+				<string>GTA V Cheats</string>
+				<key>description</key>
+				<string>This watchapp allows you to quickly access GTA V cheats right from your wrist.</string>
+				<key>url</key>
+				<string>https://apps.getpebble.com/applications/52da8d31227cbe9cb800012c</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Educational background</string>
+		<key>audioFilename</key>
+		<string>EducationalBackground</string>
+		<key>audioExtension</key>
+		<string>mp3</string>
+		<key>contentViews</key>
+		<array>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>I finished Junior High School with an average mark of 9/10 and now I&apos;m at Senior High School with a current mark of 7/10. After this, I want to do a degree on software engineering.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>About my extracurricular activities, I got First Certificate in English last year and now I&apos;m preparing to get the Certificate in Advanced English. In addition to that, I try to practise as much as I can watching TV shows and movies in English and writing posts on my blog in English too.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRButtonContentView</string>
+				<key>title</key>
+				<string>Go to my bilingual blog</string>
+				<key>url</key>
+				<string>http://blog.romanaguirre.me</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Technical skills</string>
+		<key>audioFilename</key>
+		<string>TechnicalSkills</string>
+		<key>audioExtension</key>
+		<string>mp3</string>
+		<key>contentViews</key>
+		<array>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>First of all, I have to say my knowledge comes from a process of autodidactism. They never taught me how to code in high school. Anyway, this is the list of technologies I&apos;ve learnt through all this years of autodidactism:</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>• Lua, at 12, which was my first programming language ever. With Lua, I coded some PSP apps.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>• Objective-C, at 14. An awesome programming language that opened my mind about what programming was. With Objective-C, I coded iWant &amp; DStudy.</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>• HTML, CSS, LESS, PHP, MySQL, JavaScript, jQuery and Git, at 15, which again changed my hole mind about what I could do with code. With these technologies I worked on Tudiet and I created my first web page, doviapps.com, which is currently down because now I only have a blog (whose original HTML and CSS I modified to make it look like it looks now).</string>
+			</dict>
+			<dict>
+				<key>type</key>
+				<string>DRTextContentView</string>
+				<key>text</key>
+				<string>• Node.js, MongoDB, Jade and Stylus, which again (have I said this already?) changed my mind about what developing web services is. With these technologies, I&apos;m developing Proday&apos;s API and landing page.</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>
